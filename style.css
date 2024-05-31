@@ -1,20 +1,19 @@
 body {
     font-family: Arial, sans-serif;
-    max-width: 600px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 20px;
     background-color: rgb(141, 184, 141);
 }
 h1
 {
+    margin-bottom: 40px;
     color: green;
 }
 
 .container
 {
     margin-top: 100px;
-    width: 80%;
-    height: 80%;
     align-items: center;
     padding: 4%;
     gap: 30%;
@@ -24,9 +23,7 @@ h1
 .form {
     display: flex;
     margin-bottom: 20px;
-    width: 200px;
-    
- 
+    width: 500px;
 }
 
  button
@@ -34,7 +31,6 @@ h1
     width: 20%;
     color: white;
     margin-left: 5%;
-    cursor: pointer;
     border-radius: 5px;
     border: none;
     background-color:green;
@@ -46,6 +42,7 @@ h1
     margin-right: 10px;
     text-decoration: none;
     border-radius: 5%;
+
     border-color: wheat;
    
 }

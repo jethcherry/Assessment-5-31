@@ -19,13 +19,14 @@ class ToDoList {
         return ToDoList.instance;
     }
 
-
+    //create new todo
     async createAsync(title: string): Promise<void> {
         const newTodo: Omit<ToDo, 'id'> = {
             title,
             completed: false
         };
 
+        //fetch from json database
         await fetch(this.baseUrl, {
             method: 'POST',
             headers: {

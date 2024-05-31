@@ -46,6 +46,7 @@ var ToDoList = /** @class */ (function () {
         }
         return ToDoList.instance;
     };
+    //create new todo
     ToDoList.prototype.createAsync = function (title) {
         return __awaiter(this, void 0, void 0, function () {
             var newTodo;
@@ -56,6 +57,7 @@ var ToDoList = /** @class */ (function () {
                             title: title,
                             completed: false
                         };
+                        //fetch from json database
                         return [4 /*yield*/, fetch(this.baseUrl, {
                                 method: 'POST',
                                 headers: {
@@ -64,6 +66,7 @@ var ToDoList = /** @class */ (function () {
                                 body: JSON.stringify(newTodo)
                             })];
                     case 1:
+                        //fetch from json database
                         _a.sent();
                         return [2 /*return*/];
                 }
