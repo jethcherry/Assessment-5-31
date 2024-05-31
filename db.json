@@ -1,3 +1,19 @@
 {
-  "todos": []
+  "todos": [
+    {
+      "id": "d70c",
+      "title": "Waking up early",
+      "completed": false
+    },
+    {
+      "id": "862d",
+      "title": "Reading  a book",
+      "completed": false
+    },
+    {
+      "id": "c4fa",
+      "title": "Taiking to people",
+      "completed": false
+    }
+  ]
 }
